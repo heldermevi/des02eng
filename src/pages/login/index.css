@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --color-light-50: #f8fafc ;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37; 
+    --color-dark-900: #000;
+
+    --color-purple-50: #7c3aed;
+    --color-purple-100: #a855f7;
+    --color-purple-200:#bf46ef;
+
+    --color-gradient: linear-gradient(90deg, var(--color-purple), var(--color-purple-100), var(--color-purple-200));
+}
+
+.caixa-login {
+    width: 350px;
+    height: 450px;
+    border: 2px solid #ddd;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 5px;
+     border-radius:20px ;
+    box-shadow: 0px 10px 40px #00000056;     
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.titulo-login, h1{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 60px;
+    margin-bottom: 30px;
+} 
+
+input, 
+#btn-entrar {
+    padding: 8px;
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid #ddd;
+    outline: none;
+}
+
+#btn-entrar {
+    margin-top: 25px;
+    background-color: var(--cor-primaria);     
+    color: #fff;
+    font-weight: 600;
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+.esqueci-minha-senha a {
+    color:var(--cor-primaria);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+

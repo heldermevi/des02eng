@@ -1,0 +1,17 @@
+
+
+h1{
+    text-align: center;
+}
+
+.alert{ 
+    margin-left:250px;
+    margin-right:250px;
+    margin-top:10px;
+    text-align: center;     
+  }
+
+.ico {
+    margin-top: -8px;
+    font-size: 25px;    
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+ 
+:root {     
+    --cor-primaria: #41005f;
+    --cor-secundaria: #5c1977;
+    
+    --color-purple-50: #7c3aed;
+    --color-purple-100: #a855f7;
+    --color-purple-200:#bf46ef;
+
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-900));
+}   
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+table.table {
+    box-shadow: 0.1px 0.1px 8px #9361e9;
+}
+
+table.table>thead>tr th {
+    background-color: #eee;
+}
+
+button.btn{
+    min-width: 90px;
+    min-height: 35px;
+}
+
+.espacar {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#loading{
+    display: none;
+}
+
+button.btn-primary{
+    --bs-btn-bg: var(--cor-primaria);
+    --bs-btn-border-color: var(--cor-primaria);
+    --bs-btn-hover-bg: var(--cor-secundaria);
+    --bs-btn-hover-border-color: var(--cor-secundaria);
+    --bs-btn-active-bg: var(--cor-secundaria);
+    --bs-btn-active-border-color: var(--cor-secundaria);
+    --bs-btn-disabled-bg: var(--cor-primaria);
+    --bs-btn-disabled-border-color: var(--cor-primaria);
+}
+
+button.btn-outline-primary {
+    --bs-btn-color: var(--cor-primaria);
+    --bs-btn-border-color: var(--cor-primaria);
+    --bs-btn-hover-bg: var(--cor-primaria);
+    --bs-btn-hover-border-color: var(--cor-primaria);
+    --bs-btn-active-bg: var(--cor-primaria);
+    --bs-btn-active-border-color: var(--cor-primaria);
+    --bs-btn-disabled-color: var(--cor-primaria);
+    --bs-btn-disabled-border-color: var(--cor-primaria);
+}

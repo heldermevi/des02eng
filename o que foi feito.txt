@@ -1,0 +1,12 @@
+
+## Coisas feitas nesse desafio. ##
+
+- Mudança estilo tela login.
+- Criação de pagina 'home' com acesso as demais páginas.
+- Criação páginas 'Eventos'.
+- Modificado a barra de navegação pra ficar com link dentro do menu.
+- Mudança na cor e fonte das páginas.
+- Adicionando ícones. 
+- Alteração no sweet alert, assim fechando mais rápido e sem precisar de 
+confirmar.
+- Criação tabela parecida com a anterior porem sem 'cpf', pois o foco é outro.
